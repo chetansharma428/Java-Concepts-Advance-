@@ -50,3 +50,19 @@ public class Client {
         System.out.println(fruitsStream);
     }
 }
+
+/*
+        ADVANTAGES OF STREAMS:
+        
+        Code Reduction: Streams allow you to perform complex operations on data elements in a more concise and compact manner compared to traditional loops. This leads to fewer lines of code and improved code maintainability.
+
+        Parallelism: Streams can be easily converted to parallel streams, allowing you to take advantage of multi-core processors and perform operations concurrently. This can lead to improved performance for certain types of data processing tasks.
+
+        Separation of Concerns: With traditional loops, you often mix the concerns of iterating over elements, filtering, mapping, and aggregation within a single loop. Streams encourage a separation of concerns by providing distinct operations that can be chained together in a more modular way.
+
+        Lazy Evaluation: Streams introduce lazy evaluation, which means that operations are only performed when the results are actually needed. This can lead to improved performance by avoiding unnecessary computations.
+
+        Functional Programming: Streams embrace functional programming concepts by providing operations that transform data in a functional and immutable manner. This makes it easier to reason about the behavior of your code and reduces the potential for side effects.
+
+        Data Abstraction: Streams abstract away the underlying data source, allowing you to work with different data sources (collections, arrays, I/O channels) in a consistent way. This makes your code more flexible and reusable.
+ */
